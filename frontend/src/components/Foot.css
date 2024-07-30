@@ -1,0 +1,79 @@
+
+/* footer page  */
+ /* .footer {
+    height:400px;
+    color: white;
+    background-color: #0E2E50;
+    display: flex;    
+}  */
+
+.footer {
+    /* height: 400px; Remove this line or adjust as needed */
+   color: white;
+   background-color: #0E2E50;
+   display: flex;
+   bottom: 0;
+   width: 100%; /* Ensure the footer spans the entire width */
+}
+
+.address{
+   margin: 50px 150px;
+}
+.address-heading{
+   margin: 10px;
+}
+.address-detail p{
+   color:#FFFFFF80;
+   padding : 20px;
+}
+.photo-gallery{
+   margin: 50px 150px;
+}
+
+.photo{
+   margin: 30px 0px;
+}
+.photo-3,.photo-6{
+   display: flex;
+   flex-direction: row;
+   margin: 10px;
+
+}
+.col{
+   border: 5px solid white;
+   height: 70px;
+   width: 100px;
+   border-radius: 20px;
+   
+}
+.col img{
+   height: 60px;
+   width: 90px;
+   border-radius: 10px;
+}
+.quick-link{
+   margin: 50px 150px;
+}
+.qlink-heading{
+   margin-bottom: 30px;
+}
+.qlink-detail{
+   list-style-type: none;
+}
+.qlink-detail a{
+   text-decoration: none;
+   color:#FFFFFF80;
+}
+.qlink-detail a:hover{
+   font-size: large;
+   transition: 0.5s;
+}
+.qlink-detail li{
+   padding: 10px;
+}
+.cpy{
+   color: #FFFFFF80;
+   background-color: #0E2E50;
+   text-align: center;
+   padding-bottom: 10px;
+}
