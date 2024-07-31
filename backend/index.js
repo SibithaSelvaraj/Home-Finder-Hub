@@ -5,7 +5,13 @@ const productroute = require("./routes/productRoutes")
 const app = express()
 require('dotenv').config()
 
-app.use(cors())                     //use-middleware (cor is also a midware)
+app.use(cors(
+    {
+        origin : [""],
+        methods : ["POST","GET","PUT","DELETE"],
+        credentials : true
+    }
+))                     //use-middleware (cor is also a midware)
 app.use(express.json())
 
 app.listen(process.env.PORT,()=>{
